@@ -1,12 +1,11 @@
 export const towns = [
   { name: 'Natchez', slug: 'natchez', businesses: 0 },
   { name: 'Washington', slug: 'washington', businesses: 0 },
-  { name: 'Stanton', slug: 'stanton', businesses: 0 },
   { name: 'Sibley', slug: 'sibley', businesses: 0 },
   { name: 'Kingston', slug: 'kingston', businesses: 0 },
-  { name: 'Morgantown', slug: 'morgantown', businesses: 0 },
+  { name: 'Foster Mound', slug: 'foster-mound', businesses: 0 },
+  { name: 'Stanton', slug: 'stanton', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
